@@ -15,6 +15,7 @@ $white-bg:                    #fcf8e3 !default
 $pink:                        #FF00AE !default
 
 // colors
+  
 $green-dark:                  #4D533C
 $gray:                        #7A888E
 $gray-light:                  #D4D6D4 
@@ -28,7 +29,7 @@ $green-light:                 #B6C197
 $breakpoints: ( xs: 0, sm: 480px, md: 768px, lg: 992px, xl: 1280px )
 // spacers for utilits
 $spacers: () !default
-$spacers-infix: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120
+$spacers-infix: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 124, 170, 310
 
 @each $infix in $spacers-infix
   $space: (#{$infix}: $infix * 1px)
@@ -62,12 +63,12 @@ $text-spacing: ('04': 0.3px, '08': 0.8px, 1: 1px, 2: 2px, 3: 3px, '35': 3.5px)
 
 $text-weight: (regular: 400, medium: 500, semi-bold: 600, bold: 700 )
 // vars text colors
-$text-color: ( whites: $white, gray: $gray, dark : $black)
+$text-color: ( whites: $white, gray: $gray, dark : $black, green : $green, green-light: $green-light)
 $text-family: (poppins: $main-font)
 // $line-height: (1: 1, 12: 1.2, 14: 1.4, 15: 1.5, 16: 1.6, 18: 1.8, 2: 2)
-$line-height: (14: 14px, 25: 25px, 28: 28px, 36: 36px)
+$line-height: (14: 14px, 25: 25px, 28: 28px, 36: 36px, 38: 38px, 40: 40px)
 
-$bg-color: (gray: $gray, green: $green, whites: $white)
+$bg-color: (gray: $gray, green: $green, whites: $white, green-dark: $green-dark)
 
 $border-radius: (0: 0, 1: 1px, 2: 2px, 3: 3px, 4: 4px)
 

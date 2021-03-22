@@ -1,7 +1,7 @@
 <template>
   <div class="main pt-120 pb-120 bg--white">
-    <div class="container">
-      <h2 class="text--dark text--36 w-50 mb-80">
+    <div class="container ">
+      <h2 class="text--green text--36 text--bold w-55 mb-80 lh--46">
         Deation & Evaluation - Best Way to Kick off Your Product Idea
       </h2>
       <div class="d-flex justify-content-between">

@@ -1,0 +1,33 @@
+.footer
+  position: relative
+  &:after
+    content: ''
+    width: 1110px
+    position: absolute
+    top: 450px
+    right: 165px
+    display: block
+    height: 1px
+    background-color: $green-light
+  &__company
+    position: relative
+    &:after
+      content: ''
+      width: 1px
+      position: absolute
+      right: 0
+      display: block
+      height: 210px
+      background-color: $green-light
+  &__links-block
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    &--tall
+      height: 200px
+      width: 159px
+    &--little
+      height: 160px
+      width: 160px
+
+
