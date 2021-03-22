@@ -1,0 +1,46 @@
+// header
+.header
+  height: 100vh
+  position: relative
+  overflow: hidden
+  &:after
+    content: ''
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    display: block
+    width: 100%
+    height: calc(100% - (220px / 2))
+    background-image: url("../images/bg-header.png")
+    background-repeat: no-repeat
+    background-size: cover
+    z-index: -1
+  &__brands
+    // border: 1px dashed green
+    // position: absolute
+    // right: 0
+    // bottom: 0
+    position: relative
+    height: 220px
+    background-color: $white
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      height: 100%
+      right: 0
+      top: 0
+      background-color: $white
+      width: 100%
+      transform: translateX(100%)
+
+.border-test
+  border: 1px dashed violet
+.border-test2
+  border: 1px dashed red
+.border-test3
+  border: 1px dashed green
+.border-test4
+  border: 1px dashed black
+// header END

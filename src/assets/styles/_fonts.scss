@@ -1,0 +1,21 @@
+//	Font Face Mixin
+
+@mixin fontFace($family, $src, $weight: normal, $style: normal) {
+	@font-face {
+		font-display: swap;
+		font-family: $family;
+		// src: url('../fonts/' + $src + '.eot');
+		src: 
+		// url('../fonts/' + $src + '.eot?#iefix') format('embedded-opentype'),
+		// url('../fonts/' + $src + '.woff') format('woff'),
+		url('../fonts/' + $src + '.ttf') format('truetype');
+		// url('../fonts/' + $src + '.otf') format('opentype');
+		font-weight: $weight;
+		font-style: $style;
+	}
+}
+
+@include fontFace("Poppins", "Poppins-Regular", 400);
+@include fontFace("Poppins", "Poppins-Medium", 500);
+@include fontFace("Poppins", "Poppins-SemiBold", 600);
+@include fontFace("Poppins", "Poppins-Bold", 700);
