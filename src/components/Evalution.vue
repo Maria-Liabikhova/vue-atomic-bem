@@ -1,6 +1,6 @@
 <template>
-  <div class="main pt-120 pb-120 bg--white">
-    <div class="container ">
+  <div class="main pt-120 pb-120 mb-181 bg--white ">
+    <div class="container main__border">
       <h2 class="text--green text--36 text--bold w-55 mb-80 lh--46">
         Deation & Evaluation - Best Way to Kick off Your Product Idea
       </h2>

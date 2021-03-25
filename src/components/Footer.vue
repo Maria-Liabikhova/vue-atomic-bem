@@ -1,6 +1,6 @@
 <template>
   <footer class="footer bg--green-dark">
-    <div class="w-90 d-flex bg--whites h-25 py-70 footer__banner">
+    <div class="w-90 d-flex bg--whites py-70 footer__banner">
       <div class="w-15"></div>
       <div>
         <h2 class="text--green text--bold text--60 lh--74 mb-50">Let’s make something<br>amazing together.</h2>
