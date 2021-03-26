@@ -6,10 +6,39 @@
       position: absolute
       display: block
       width: 100%
-      // max-width: 991px
       height: 1px
       background-color: $gray-light
       top: 0
       left: 50%
-      transform: translate(-50%, -120px)
-      
+      transform: translate(-50%, -80px)
+  &__avatar
+    background-size: cover
+    border-radius: 50%
+    margin-right: 5px 
+    height: 50px
+    width: 50px
+    &--booking
+      background-image: url("../images/b_ava.jpg")
+      background-position-x: 40%
+    &--threed
+      background-image: url("../images/t_ava.jpg")
+      background-position-x: 50%
+  &__banner
+    box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2)
+    &--threed
+      transform: translateY(20%)
+  &__align
+    display: flex
+    align-items: center
+  &__bg
+    background-repeat: no-repeat
+    background-size: 50%
+    &--booking
+      background-image: url("../images/bitmap(3).png")
+    &--threed
+      background-image: url("../images/bitmap(2).png")
+      background-position-x: 100%
+// .bor
+//   border: 1px dashed green
+// .bor1
+//   border: 1px dashed red    
