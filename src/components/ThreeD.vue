@@ -13,9 +13,9 @@
         </p>
         <a href="#" class="link link__gray text--gray-l">See Case Study</a>
       </div>
-      <div class="w-5 d-inline-block"></div>
-      <div class="w-55 d-inline-block">
-        <div class="px-30 py-30 w-60 bg--whites radius--4 main__banner main__banner--threed">
+      <!-- <div class="w-5 d-inline-block"></div> -->
+      <div class="w-60 d-inline-block">
+        <div class="px-30 py-30 w-70 bg--whites radius--4 main__banner main__banner--threed">
           <p><i>"I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems."</i></p>
           <div class="d-flex">
             <div class="main__avatar main__avatar--threed"></div>

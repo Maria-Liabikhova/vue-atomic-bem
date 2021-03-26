@@ -1,7 +1,7 @@
 <template>
   <div class="main bg--white">
     <div class="container main__bg main__bg--booking">
-      <div class="w-100 d-flex mb-40">
+      <div class="w-100 d-flex">
         <div class="w-60"></div>
         <div class="w-40">
           <h2 class="text--green text--36 text--bold mb-25 mt-80 lh--46">
@@ -10,7 +10,7 @@
           <p class="text--gray text--14 mb-30">
             You should be able to find several indispensable facts about motivation in the following paragraphs. 
           </p>
-          <p class="text--gray text--14">
+          <p class="text--gray text--14 mb-0">
             If there’s at least one fact you didn’t know before, imagine the difference it might make.
           </p>
         </div>
