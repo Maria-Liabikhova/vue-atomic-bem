@@ -13,7 +13,7 @@
       <div class="d-flex w-100">
         <div class="w-20 mb-55">
           <h3 class="lh-40 text--whites mb-8 text--green-light">Phone</h3>
-          <a href='tel:+3250312832' class=" link w-20 lh-40 text--bold text--whites footer__no-wrapp">+32 50 31 28 32</a>
+          <a href='tel:+3250312832' class="d-block link  lh-40 text--bold text--whites footer__no-wrapp">+32 50 31 28 32</a>
         </div>
         <div class="w-20 mb-55">
           <h3 class="lh-40 text--whites mb-8 text--green-light">Address</h3>

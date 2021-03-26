@@ -1,6 +1,6 @@
 <template>
-  <div class="main bg--white">
-    <div class="container main__bg main__bg--booking">
+  <div class="main bg--white main__bg main__bg--booking">
+    <div class="container">
       <div class="w-100 d-flex">
         <div class="w-60"></div>
         <div class="w-40">

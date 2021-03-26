@@ -1,12 +1,12 @@
 <template>
-  <div class="main bg--white mb-90">
-    <div class="container main__bg main__bg--balenciaga">
+  <div class="main bg--white mb-90 main__bg main__bg--balenciaga">
+    <div class="container">
       <div class="w-100 d-flex">
         <div class="w-60"></div>
         <div class="w-40">
           <h2 class="text--green text--36 text--bold mb-25 mt-80 lh--46">
             The wall new<br>Balenciaga.com
-            </h2>
+          </h2>
           <p class="text--gray text--14 mb-30">
             This article is floated online with an aim to help you find the best dvd printing solution.
           </p>

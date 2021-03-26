@@ -2,7 +2,6 @@
 .header
   height: 100vh
   position: relative
-  overflow: hidden
   &:after
     content: ''
     width: 100%
@@ -17,13 +16,10 @@
     background-size: cover
     z-index: -1
   &__brands
-    // border: 1px dashed green
-    // position: absolute
-    // right: 0
-    // bottom: 0
     position: relative
     height: 220px
     background-color: $white
+    box-shadow: 21px 23px 34px 18px rgba(0, 0, 0, 0.2)
     &:after
       content: ''
       display: block
@@ -33,14 +29,7 @@
       top: 0
       background-color: $white
       width: 100%
-      transform: translateX(100%)
-
-.border-test
-  border: 1px dashed violet
-.border-test2
-  border: 1px dashed red
-.border-test3
-  border: 1px dashed green
-.border-test4
-  border: 1px dashed black
+      transform: translateX(99%)
+  &__top
+    align-self: flex-start
 // header END

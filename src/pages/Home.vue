@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <Header />
+    <Strategy/>
+    <Awesomer/>
     <Balenciaga/>
     <ThreeD/>
     <Booking/>
@@ -11,6 +13,8 @@
 
 <script>
 import Header from '@/components/Header'
+import Strategy from '@/components/Strategy'
+import Awesomer from '@/components/Awesomer'
 import Balenciaga from '@/components/Balenciaga'
 import ThreeD from '@/components/ThreeD'
 import Booking from '@/components/Booking'
@@ -21,6 +25,8 @@ export default {
   name: 'Home',
   components: {
     Header: Header,
+    Strategy: Strategy,
+    Awesomer: Awesomer,
     Balenciaga: Balenciaga,
     ThreeD: ThreeD,
     Booking: Booking,

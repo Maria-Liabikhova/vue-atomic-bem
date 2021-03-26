@@ -1,6 +1,6 @@
 <template>
-  <div class="main bg--white mb-90">
-    <div class="container main__bg main__bg--threed">
+  <div class="main bg--white mb-90 main__bg main__bg--threed">
+    <div class="container">
       <div class="w-40 pl-90 d-inline-block">
         <h2 class="text--green text--36 mt-80 text--bold mb-25 lh--46">
           Is this the future of<br>3D model?
@@ -13,7 +13,6 @@
         </p>
         <a href="#" class="link link__gray text--gray-l">See Case Study</a>
       </div>
-      <!-- <div class="w-5 d-inline-block"></div> -->
       <div class="w-60 d-inline-block">
         <div class="px-30 py-30 w-70 bg--whites radius--4 main__banner main__banner--threed">
           <p><i>"I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems."</i></p>
