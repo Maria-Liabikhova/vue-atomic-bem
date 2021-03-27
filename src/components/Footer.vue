@@ -59,7 +59,7 @@
       </div>
       <div class="d-flex w-100 align-items-center">
         <div class="w-65 pt-25 pb-25 ">
-          <a href="#" class="link link--logo d-flex ">
+          <a href="#" class="link d-flex ">
             <img
               :src="require('@/assets/images/logo.png')"
               alt=""

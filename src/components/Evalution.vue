@@ -8,8 +8,7 @@
         <div class="w-20 pl-20 pr30 pt-25 pb-25 bg--whites radius--4">
           <h3 class="text--dark text--24 mb-20 text--green">Product Design Sprint</h3>
           <p class="text--dark text--14 mb-55">
-            A five-day workshop that will help you answer crucial business
-            questions
+            A five-day workshop that will help you answer crucial business questions
           </p>
           <a href="" class="link link--yellow">Read More</a>
         </div>
