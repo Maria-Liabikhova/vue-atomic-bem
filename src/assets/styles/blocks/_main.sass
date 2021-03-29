@@ -18,6 +18,9 @@
     margin-right: 5px 
     height: 50px
     width: 50px
+    @media screen and ( max-width: 767px )
+      height: 40px
+      width: 40px
     &--booking
       background-image: url("../images/b_ava.jpg")
       background-position-x: 40%
@@ -36,6 +39,8 @@
       transform: translateY(20%)
   &__shadow
     box-shadow: 21px 23px 34px 18px rgba(0, 0, 0, 0.2)
+    @media screen and ( max-width: 767px )
+      box-shadow: 5px 5px 6px 3px rgba(0, 0, 0, 0.2)
   &__align
     display: flex
     align-items: center
@@ -51,4 +56,6 @@
       background-image: url("../images/bitmap(1).png")
   &__topbord
     border-top: 1px solid $gray-light
+  &__strategy
+    margin-top: -50px
 // main END
