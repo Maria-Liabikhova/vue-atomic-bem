@@ -3,8 +3,8 @@
     <Header />
     <Strategy/>
     <Awesomer/>
-    <!--<Balenciaga/>
-    <ThreeD/>
+    <Balenciaga/>
+    <!--<ThreeD/>
     <Booking/>
     <Evalution />
     <Footer /> -->
@@ -15,7 +15,7 @@
 import Header from '@/components/Header'
 import Strategy from '@/components/Strategy'
 import Awesomer from '@/components/Awesomer'
-// import Balenciaga from '@/components/Balenciaga'
+import Balenciaga from '@/components/Balenciaga'
 // import ThreeD from '@/components/ThreeD'
 // import Booking from '@/components/Booking'
 // import Evalution from '@/components/Evalution'
@@ -26,8 +26,8 @@ export default {
   components: {
     Header: Header,
     Strategy: Strategy,
-    Awesomer: Awesomer
-    // Balenciaga: Balenciaga,
+    Awesomer: Awesomer,
+    Balenciaga: Balenciaga
     // ThreeD: ThreeD,
     // Booking: Booking,
     // Evalution: Evalution,
