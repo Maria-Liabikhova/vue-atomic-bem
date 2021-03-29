@@ -7,7 +7,7 @@
     <ThreeD/>
     <Booking/>
     <Evalution />
-    <!--<Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -19,7 +19,7 @@ import Balenciaga from '@/components/Balenciaga'
 import ThreeD from '@/components/ThreeD'
 import Booking from '@/components/Booking'
 import Evalution from '@/components/Evalution'
-// import Footer from '@/components/Footer'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'Home',
@@ -30,8 +30,8 @@ export default {
     Balenciaga: Balenciaga,
     ThreeD: ThreeD,
     Booking: Booking,
-    Evalution: Evalution
-    // Footer: Footer
+    Evalution: Evalution,
+    Footer: Footer
   }
 }
 </script>
