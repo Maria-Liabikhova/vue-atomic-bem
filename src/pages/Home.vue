@@ -5,9 +5,9 @@
     <Awesomer/>
     <Balenciaga/>
     <ThreeD/>
-    <!--<Booking/>
+    <Booking/>
     <Evalution />
-    <Footer /> -->
+    <!--<Footer /> -->
   </div>
 </template>
 
@@ -17,8 +17,8 @@ import Strategy from '@/components/Strategy'
 import Awesomer from '@/components/Awesomer'
 import Balenciaga from '@/components/Balenciaga'
 import ThreeD from '@/components/ThreeD'
-// import Booking from '@/components/Booking'
-// import Evalution from '@/components/Evalution'
+import Booking from '@/components/Booking'
+import Evalution from '@/components/Evalution'
 // import Footer from '@/components/Footer'
 
 export default {
@@ -28,9 +28,9 @@ export default {
     Strategy: Strategy,
     Awesomer: Awesomer,
     Balenciaga: Balenciaga,
-    ThreeD: ThreeD
-    // Booking: Booking,
-    // Evalution: Evalution,
+    ThreeD: ThreeD,
+    Booking: Booking,
+    Evalution: Evalution
     // Footer: Footer
   }
 }
