@@ -22,7 +22,7 @@
             <i>"In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems."</i>
           </p>
           <div class="main__align">
-            <div class="main__avatar mr-5 main__avatar--balenciaga lh-24"></div>
+            <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
             <div>
               <p class="mb-5 text--bold text--sm-10 text--xl-14">Angel Armstrong</p>
               <p class="lh-21 text--sm-10 text--xl-14 mb-0">Founder & CEO, Google</p>
