@@ -3,7 +3,9 @@
   height: 100vh
   position: relative
   overflow: hidden
-  padding-bottom: 50px
+  padding-bottom: 100px
+  @media screen and ( max-width: 767px )
+    padding-bottom: 20px
   &:after
     content: ''
     width: 100%
@@ -11,21 +13,30 @@
     top: 0
     left: 0
     display: block
-    height: calc(100% - (280px / 2))
+    height: calc(100% - (227px / 2) - 100px)
     background-image: url("../images/bg-header.png")
     background-repeat: no-repeat
     background-size: cover
     z-index: -1
     @media screen and ( max-width: 991px )
-      height: calc(100% - (250px / 2))
+      height: calc(100% - (180px / 2) - 100px)
     @media screen and ( max-width: 767px )
-      height: calc(100% - 100px)
+      height: calc(100% - (150px / 2) - 20px)
+    @media screen and ( max-width: 479px )
+      height: calc(100% - (100px / 2) - 20px)
   &__brands
     position: relative
     background-color: $white
+    height: 227px 
     box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459)
+    z-index: 100
+    @media screen and ( max-width: 991px )
+      height: 180px
     @media screen and ( max-width: 767px )
       box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.1459)
+      height: 150px
+    @media screen and ( max-width: 479px )
+      height: 100px
     &:after
       content: ''
       display: block

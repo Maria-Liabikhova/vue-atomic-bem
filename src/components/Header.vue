@@ -50,27 +50,25 @@
         </h2>
         <a href="#" class="link text--12 text--sm-16 link--yellow link--arrow mb-40 mb-sm-60 mb-md-107 lh--24">Get in touch</a>
       </main>
-      <nav
-        class="header__brands"
-      ><div class="w-100 d-flex align-items-center justify-content-between">
-        <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65 pt-20 pt-md-30 pt-lg-55 pt-xl-60 pb-20 pb-md-30 pb-lg-50 pb-xl-54">
-          <img :src="require('@/assets/images/brand-1.png')" class="w-100" alt="brand logo" />
-        </a>
-        <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65 pt-20 pt-md-30 pt-lg-55 pt-xl-60 pb-20 pb-md-30 pb-lg-50 pb-xl-54">
-          <img :src="require('@/assets/images/brand-2.png')" class="w-100" alt="brand logo" />
-        </a>
-        <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65 pt-20 pt-md-30 pt-lg-55 pt-xl-60 pb-20 pb-md-30 pb-lg-50 pb-xl-54">
-          <img :src="require('@/assets/images/brand-5.png')" class="w-100" alt="brand logo" />
-        </a>
-        <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65 pt-20 pt-md-30 pt-lg-55 pt-xl-60 pb-20 pb-md-30 pb-lg-50 pb-xl-54">
-          <img :src="require('@/assets/images/brand-3.png')" class="w-100" alt="brand logo" />
-        </a>
-        <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65 pt-20 pt-md-30 pt-lg-55 pt-xl-60 pb-20 pb-md-30 pb-lg-50 pb-xl-54">
-          <img :src="require('@/assets/images/brand-4.png')" class="w-100" alt="brand logo" />
-        </a>
+      <nav class="header__brands d-flex align-items-center">
+        <div class="w-100 d-flex align-items-center justify-content-between">
+          <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
+            <img :src="require('@/assets/images/brand-1.png')" class="w-100" alt="brand logo" />
+          </a>
+          <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
+            <img :src="require('@/assets/images/brand-2.png')" class="w-100" alt="brand logo" />
+          </a>
+          <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
+            <img :src="require('@/assets/images/brand-5.png')" class="w-100" alt="brand logo" />
+          </a>
+          <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
+            <img :src="require('@/assets/images/brand-3.png')" class="w-100" alt="brand logo" />
+          </a>
+          <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
+            <img :src="require('@/assets/images/brand-4.png')" class="w-100" alt="brand logo" />
+          </a>
         </div>
       </nav>
     </div>
-    <!-- </div> -->
   </header>
 </template>
