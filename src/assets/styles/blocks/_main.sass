@@ -74,8 +74,14 @@
     border-top: 1px solid $gray-light
   &__strategy
     transform: translateY(-100px)
-    @media screen and ( max-width: 767px )
+    margin-bottom: 50px
+    @media screen and ( max-width: 1279px )
+      margin-bottom: 20px
+    @media screen and ( max-width: 991px )
+      margin-bottom: 50px
       transform: translateY(-20px)
+    @media screen and ( max-width: 479px )
+      margin-bottom: 20px
   &__h2
     @media screen and ( max-width: 480px )
       letter-spacing: -1px
