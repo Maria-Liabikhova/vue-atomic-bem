@@ -4,7 +4,7 @@
       <div class="w-100 d-flex">
         <div class="w-55 w-md-60"></div>
         <div class="w-45 w-md-40">
-          <h2 class="text--green text--22 text--lg-36 text--bold mb-15 mb-md-25 pt-20 pt-lg-30 pt-xl-80 lh--46">
+          <h2 class="text--green main__h2 text--20 text--sm-22 text--lg-36 text--bold mb-15 mb-md-25 pt-20 pt-lg-30 pt-xl-80 lh--46">
             Is this the future of<br>Online Booking
           </h2>
           <p class="text--gray text--10 text--lg-14 mb-15 mb-lg-30">

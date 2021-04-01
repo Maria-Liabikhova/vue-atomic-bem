@@ -11,25 +11,21 @@
     top: 0
     left: 0
     display: block
-    width: 100%
-    height: calc(100% - (220px / 2))
+    height: calc(100% - (280px / 2))
     background-image: url("../images/bg-header.png")
     background-repeat: no-repeat
     background-size: cover
     z-index: -1
     @media screen and ( max-width: 991px )
-      height: calc(100% - (150px / 2))
+      height: calc(100% - (250px / 2))
     @media screen and ( max-width: 767px )
-      height: calc(100% - (110px / 2))
+      height: calc(100% - 100px)
   &__brands
     position: relative
-    height: 220px
     background-color: $white
-    box-shadow: 11px 3px 34px 18px rgba(0, 0, 0, 0.2)
-    @media screen and ( max-width: 991px )
-      height: 150px
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459)
     @media screen and ( max-width: 767px )
-      height: 110px
+      box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.1459)
     &:after
       content: ''
       display: block
@@ -40,6 +36,24 @@
       background-color: $white
       width: 100%
       transform: translateX(99%)
+      box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459)
+      @media screen and ( max-width: 767px )
+        box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.1459)
   &__top
     align-self: flex-start
+  &__logo
+    height: 8px
+    transform: translateY(-50%)
+    background-color: $white
+    width: 8px
+    border-radius: 50%
+    align-self: flex-end
+    justify-content: flex-end
+    @media screen and ( max-width: 991px )
+      height: 5px
+      width: 5px
+      transform: translateY(-100%)
+    @media screen and ( max-width: 768px )
+      height: 3px
+      width: 3px
 // header END

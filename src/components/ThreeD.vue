@@ -2,7 +2,7 @@
   <div class="main bg--white mb-90 main__bg main__bg--threed">
     <div class="container">
       <div class="w-40 d-inline-block">
-        <h2 class="text--green text--22 text--lg-36 pt-20 pt-lg-30 pt-xl-80 lh--46 text--bold lh--46 mb-15 mb-md-25">
+        <h2 class="text--green main__h2 text--20 text--sm-22 text--lg-36 pt-20 pt-lg-30 pt-xl-80 lh--46 text--bold lh--46 mb-15 mb-md-25">
           Is this the future of<br>3D model?
         </h2>
         <p class="text--gray text--10 text--lg-14 mb-15 mb-lg-30">

@@ -2,7 +2,7 @@
   <div class="main bg--white">
     <div class="container mb-40 mb-md-100 pt-70 pt-md-150 main__topbord">
       <div class="w-40 d-inline-block">
-        <h2 class="text--green text--22 text--lg-36 text--bold lh--46">
+        <h2 class="text--green main__h2 text--20 text--sm-22 text--lg-36 text--bold lh--46">
           We have some<br>Awesomr Project.
         </h2>
       </div>

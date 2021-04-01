@@ -49,9 +49,7 @@
       @media screen and ( max-width: 479px )
         transform: translateY(-40%)
   &__shadow
-    box-shadow: 21px 23px 34px 18px rgba(0, 0, 0, 0.2)
-    @media screen and ( max-width: 767px )
-      box-shadow: 5px 5px 6px 3px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.1459)
   &__align
     display: flex
     align-items: center
@@ -69,4 +67,8 @@
     border-top: 1px solid $gray-light
   &__strategy
     margin-top: -50px
+  &__h2
+    @media screen and ( max-width: 480px )
+      letter-spacing: -1px
+      
 // main END

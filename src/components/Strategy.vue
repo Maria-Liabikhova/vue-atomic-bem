@@ -5,7 +5,7 @@
         <p class="text--dark pt-30 pt-sm-0 text--10 text--sm-14 mb-30 pt-auto">
           What we do for you
         </p>
-        <h2 class="text--green text--22 text--lg-36 text--bold mb-25 lh--46">
+        <h2 class="text--green main__h2 text--20 text--sm-22 text--lg-36 text--bold mb-25 lh--46">
           Strategy. Design<br>Content. Technology<br>Development 
         </h2>
         <p class="text--gray text--14 mb-30">
