@@ -6,10 +6,10 @@
           <p class="text--green pt-50 pt-md-90 pt-lg-120 text--10 text--sm-14 lh--21 mb-md-20 mb-lg-30">
             What we do for you
           </p>
-          <h2 class="text--green main__h2 text--20 text--sm-22 text--md-26 text--lg-36 text--bold mb-35 lh--md-36 lh--lg-46">
+          <h2 class="main__h2 mb-35 lh--lg-46">
             Strategy. Design<br>Content. Technology<br>Development 
           </h2>
-          <p class="text--gray text--10 text--md-16 lh-14 lh-md-21 lh--lg-26 mb-30 mb-md-42">
+          <p class="main__text mb-30 mb-md-42">
             There’s no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a framework that fosters candid collaboration.
           </p>
           <a href="#" class="link text--12 text--md--16 link__gray text--gray-l lh--14 lh--md-18">More know About us</a>

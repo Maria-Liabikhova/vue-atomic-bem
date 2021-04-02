@@ -1,38 +1,35 @@
 <template>
-  <div class="main bg--white mb-90 main__bg main__bg--balenciaga">
-    <div class="container">
-      <div class="w-100 d-flex">
-        <div class="w-55 w-md-60"></div>
-        <div class="w-45 w-md-40">
-          <h2 class="text--green text--20 text--sm-22 text--lg-36 text--bold mb-15 mb-md-25 pt-20 pt-lg-30 pt-xl-80 lh--46 main__h2">
-            The wall new<br>Balenciaga.com
-          </h2>
-          <p class="text--gray text--10 text--lg-14 mb-15 mb-lg-30">
-            This article is floated online with an aim to help you find the best dvd printing solution.
-          </p>
-          <p class="text--gray text--10 text--lg-14 mb-0">
-            Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.
-          </p>
-        </div>
-      </div>
-      <div class="w-100 d-flex">
-        <div class="w-10 w-md-15"></div>
-        <div class="w-45 px-10 py-10 px-lg-30 py-lg-30 w-40 bg--whites text--10 text--xl-16 radius--4 main__banner">
-          <p class="mb-10 mb-lg-16">
-            <i>"In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems."</i>
-          </p>
-          <div class="main__align">
-            <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
-            <div>
-              <p class="mb-5 text--bold text--sm-10 text--xl-14">Angel Armstrong</p>
-              <p class="lh-21 text--sm-10 text--xl-14 mb-0">Founder & CEO, Google</p>
-            </div>
+  <div class="main bg--white ">
+    <div class="w-50 img__wrapper">
+      <img :src="require('@/assets/images/bitmap(1).png')" class="img mr-80">
+      <div class="w-40 w-md-31 px-5 py-5 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--balenciaga">
+        <p class="mb-10 mb-lg-16 main__banner--text">
+         "In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems."
+        </p>
+        <div class="main__align">
+          <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
+          <div>
+            <p class="mb-0 mb-lg-5  main__banner--name">Angel Armstrong</p>
+            <p class="main__banner--company">Founder & CEO, Google</p>
           </div>
         </div>
-        <div class="w-5"></div>
-        <div class="w-40 main__align">
-          <a href="#" class="link link__gray text--gray-l">See Case Study</a>
-        </div>
+      </div>
+    </div>
+    <div class="container main--noheight">
+      <div class="d-flex main__transform--balenciaga">
+        <div class="w-58"></div>
+        <div class="w-42">
+          <h2 class="main__h2 mb-15 mb-md-25 pt-sm-20 pt-lg-40 pt-xl-90 ">
+            The wall new<br>Balenciaga.com
+          </h2>
+          <p class="main__text mb-15 mb-lg-25">
+            This article is floated online with an aim to help you find the best dvd printing solution.
+          </p>
+          <p class="main__text mb-20 mb-lg-40 mb-xl-90">
+            Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.
+          </p>
+          <a href="#" class="link link__gray mb-0 mb-sm-10 mb-md-25 mb-lg-45">See Case Study</a>
+        </div> 
       </div>
     </div>
   </div>
