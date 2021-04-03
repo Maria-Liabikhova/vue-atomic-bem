@@ -17,45 +17,10 @@
               class="w-65"
             />
           </a>
-          <button
-            type="button"
-            class="header__button"
-            :class="{ 'header__button--none': invisBtn }"
-            @click="showMenu"
-          >
-            <img
-              :src="require('@/assets/images/hicon.svg')"
-              alt="links menu button"
-            />
-          </button>
-          <nav
-            class="header__nav header__top w-25 h-50 px-30 py-50"
-            :class="{ 'header__nav--show': showNav }"
-          >
-            <a
-              href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
-              >link1</a
-            >
-            <a
-              href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
-              >link2</a
-            >
-            <a
-              href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
-              >link3</a
-            >
-            <a
-              href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
-              >link4</a
-            >
-          </nav>
+          <Collapse />
         </div>
       </div>
-      <main ref="main">
+      <main ref="main" @click="closeMenuClick">
         <div class="d-block w-65 w-lg-55">
           <p class="text--whites text--10 text--md-14 lh--21 mb-10 mb-sm-22 ">
             A place where
@@ -122,29 +87,14 @@
 </template>
 
 <script>
+import Collapse from '@/components/Collapse'
 export default {
-  data() {
-    return {
-      showNav: false,
-      invisBtn: false
-    }
-  },
+  components: { Collapse: Collapse },
   methods: {
-    showMenu() {
-      this.showNav = true
-      window.addEventListener('scroll', this.closeMenuScroll)
-      this.$refs.main.addEventListener('click', this.closeMenuClick)
-      setTimeout(() => (this.invisBtn = true), 500)
-    },
-    closeMenuScroll() {
-      this.showNav = false
-      window.removeEventListener('scroll', this.closeMenuScroll)
-      setTimeout(() => (this.invisBtn = false), 1000)
-    },
     closeMenuClick() {
-      this.showNav = false
+      console.log(this.showNavP)
+      this.showNavP = false
       this.$refs.main.removeEventListener('click', this.closeMenuClick)
-      setTimeout(() => (this.invisBtn = false), 1000)
     }
   }
 }
