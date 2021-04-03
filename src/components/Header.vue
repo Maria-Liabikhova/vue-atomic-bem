@@ -92,7 +92,7 @@ export default {
   components: { Collapse: Collapse },
   methods: {
     closeMenuClick() {
-      this.showNavP = false
+      this.showNav = false
       this.$refs.main.removeEventListener('click', this.closeMenuClick)
     }
   }
