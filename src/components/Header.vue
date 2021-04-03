@@ -17,14 +17,18 @@
               class="w-65"
             />
           </a>
-          <button type="button" class="header__button" @click="showMenu">
+          <button
+            type="button"
+            class="header__button"
+            :class="{ 'header__button--none': invisBtn }"
+            @click="showMenu"
+          >
             <img
               :src="require('@/assets/images/hicon.svg')"
               alt="links menu button"
             />
           </button>
           <nav
-            ref="hmenu"
             class="header__nav header__top w-25 h-50 px-30 py-50"
             :class="{ 'header__nav--show': showNav }"
           >
@@ -121,25 +125,26 @@
 export default {
   data() {
     return {
-      showNav: false
+      showNav: false,
+      invisBtn: false
     }
   },
   methods: {
     showMenu() {
-      // this.$refs.hmenu.classList.add('header__nav--show') классический js, не актуально для Vue
       this.showNav = true
       window.addEventListener('scroll', this.closeMenuScroll)
       this.$refs.main.addEventListener('click', this.closeMenuClick)
+      setTimeout(() => (this.invisBtn = true), 500)
     },
     closeMenuScroll() {
       this.showNav = false
-      // this.$refs.hmenu.classList.remove('header__nav--show') классический js, не актуально для Vue
       window.removeEventListener('scroll', this.closeMenuScroll)
+      setTimeout(() => (this.invisBtn = false), 1000)
     },
     closeMenuClick() {
       this.showNav = false
-      // this.$refs.hmenu.classList.remove('header__nav--show') классический js, не актуально для Vue
       this.$refs.main.removeEventListener('click', this.closeMenuClick)
+      setTimeout(() => (this.invisBtn = false), 1000)
     }
   }
 }
