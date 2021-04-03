@@ -2,7 +2,9 @@
   <header class="header h-100">
     <div class="container">
       <div class="d-flex flex-column justify-content-between">
-        <div class="d-flex justify-content-between pt-23 mb-30 mb-sm-40 mb-lg-80 mb-xl-121">
+        <div
+          class="d-flex justify-content-between pt-23 mb-30 mb-sm-40 mb-lg-80 mb-xl-121"
+        >
           <a href="#" class="link d-flex align-items-start w-18">
             <img
               :src="require('@/assets/images/logo.png')"
@@ -15,60 +17,130 @@
               class="w-65"
             />
           </a>
-          <nav class="nav header__top d-flex flex-wrap">
+          <button type="button" class="header__button" @click="showMenu">
+            <img
+              :src="require('@/assets/images/hicon.svg')"
+              alt="links menu button"
+            />
+          </button>
+          <nav
+            ref="hmenu"
+            class="header__nav header__top w-25 h-50 px-30 py-50"
+            :class="{ 'header__nav--show': showNav }"
+          >
             <a
               href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-8"
+              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
               >link1</a
             >
             <a
               href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-8"
+              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
               >link2</a
             >
             <a
               href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-8"
+              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
               >link3</a
             >
             <a
               href="#"
-              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-8"
+              class="link d-block text--10 text--sm-14 text--uppercase space--1 px-20 py-20"
               >link4</a
             >
           </nav>
         </div>
       </div>
-      <main class="d-block w-65 w-lg-55">
-        <p class="text--whites text--10 text--md-14 lh--21 mb-10 mb-sm-22 ">A place where</p>
-        <h1 class="text--24 text--sm-36 text--md-50 text--xl-60 text--whites text--bold mb-24 lh--sm-50 lh--md-65 lh--xl-74">
-          A creative agency for redemptive brands
-        </h1>
-        <h2 class="text--whites text--10 text--sm-14 text--md-16 text--regular lh--sm-18 lh--md-26 mb-sm-25 mb-md-45">
-          Anteelo is a leading strategic design firm that builds powerful
-          digital solutions for startups and enterprises.
-        </h2>
-        <a href="#" class="link text--12 text--sm-16 link--yellow link--arrow mb-40 mb-sm-60 mb-md-107 lh--24">Get in touch</a>
+      <main ref="main">
+        <div class="d-block w-65 w-lg-55">
+          <p class="text--whites text--10 text--md-14 lh--21 mb-10 mb-sm-22 ">
+            A place where
+          </p>
+          <h1
+            class="text--24 text--sm-36 text--md-50 text--xl-60 text--whites text--bold mb-24 lh--sm-50 lh--md-65 lh--xl-74"
+          >
+            A creative agency for redemptive brands
+          </h1>
+          <h2
+            class="text--whites text--10 text--sm-14 text--md-16 text--regular lh--sm-18 lh--md-26 mb-sm-25 mb-md-45"
+          >
+            Anteelo is a leading strategic design firm that builds powerful
+            digital solutions for startups and enterprises.
+          </h2>
+          <a
+            href="#"
+            class="link text--12 text--sm-16 link--yellow link--arrow mb-40 mb-sm-60 mb-md-107 lh--24"
+            >Get in touch</a
+          >
+        </div>
       </main>
       <nav class="header__brands d-flex align-items-center">
         <div class="w-100 d-flex align-items-center justify-content-between">
           <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
-            <img :src="require('@/assets/images/brand-1.png')" class="w-100" alt="brand logo" />
+            <img
+              :src="require('@/assets/images/brand-1.png')"
+              class="w-100"
+              alt="brand logo"
+            />
           </a>
           <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
-            <img :src="require('@/assets/images/brand-2.png')" class="w-100" alt="brand logo" />
+            <img
+              :src="require('@/assets/images/brand-2.png')"
+              class="w-100"
+              alt="brand logo"
+            />
           </a>
           <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
-            <img :src="require('@/assets/images/brand-5.png')" class="w-100" alt="brand logo" />
+            <img
+              :src="require('@/assets/images/brand-5.png')"
+              class="w-100"
+              alt="brand logo"
+            />
           </a>
           <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
-            <img :src="require('@/assets/images/brand-3.png')" class="w-100" alt="brand logo" />
+            <img
+              :src="require('@/assets/images/brand-3.png')"
+              class="w-100"
+              alt="brand logo"
+            />
           </a>
           <a href="#" class="link w-20 pl-20 pl-md-30 pl-lg-50 pl-xl-65">
-            <img :src="require('@/assets/images/brand-4.png')" class="w-100" alt="brand logo" />
+            <img
+              :src="require('@/assets/images/brand-4.png')"
+              class="w-100"
+              alt="brand logo"
+            />
           </a>
         </div>
       </nav>
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showNav: false
+    }
+  },
+  methods: {
+    showMenu() {
+      // this.$refs.hmenu.classList.add('header__nav--show') классический js, не актуально для Vue
+      this.showNav = true
+      window.addEventListener('scroll', this.closeMenuScroll)
+      this.$refs.main.addEventListener('click', this.closeMenuClick)
+    },
+    closeMenuScroll() {
+      this.showNav = false
+      // this.$refs.hmenu.classList.remove('header__nav--show') классический js, не актуально для Vue
+      window.removeEventListener('scroll', this.closeMenuScroll)
+    },
+    closeMenuClick() {
+      this.showNav = false
+      // this.$refs.hmenu.classList.remove('header__nav--show') классический js, не актуально для Vue
+      this.$refs.main.removeEventListener('click', this.closeMenuClick)
+    }
+  }
+}
+</script>

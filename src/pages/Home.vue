@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <Header />
-    <Strategy/>
-    <Awesomer/>
+    <!-- <Strategy /> -->
+    <!-- <Awesomer/>
     <Balenciaga/>
-    <!-- <ThreeD/>
-    <Booking/>
+    <ThreeD/> -->
+    <!-- <Booking/>
     <Evalution />
     <Footer /> -->
   </div>
@@ -13,9 +13,9 @@
 
 <script>
 import Header from '@/components/Header'
-import Strategy from '@/components/Strategy'
-import Awesomer from '@/components/Awesomer'
-import Balenciaga from '@/components/Balenciaga'
+// import Strategy from '@/components/Strategy'
+// import Awesomer from '@/components/Awesomer'
+// import Balenciaga from '@/components/Balenciaga'
 // import ThreeD from '@/components/ThreeD'
 // import Booking from '@/components/Booking'
 // import Evalution from '@/components/Evalution'
@@ -24,11 +24,11 @@ import Balenciaga from '@/components/Balenciaga'
 export default {
   name: 'Home',
   components: {
-    Header: Header,
-    Strategy: Strategy,
-    Awesomer: Awesomer,
-    Balenciaga: Balenciaga
-    // ThreeD: ThreeD,
+    Header: Header
+    // Strategy: Strategy,
+    // Awesomer: Awesomer,
+    // Balenciaga: Balenciaga,
+    // ThreeD: ThreeD
     // Booking: Booking,
     // Evalution: Evalution,
     // Footer: Footer
