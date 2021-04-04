@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-on-clickaway="closeOrSleep">
     <button
       type="button"
       class="header__button"
@@ -40,20 +40,29 @@
 </template>
 
 <script>
+import { mixin as clickaway } from 'vue-clickaway'
 export default {
+  mixins: [clickaway],
   data() {
     return {
       showNav: false
     }
   },
   methods: {
+    closeOrSleep() {
+      if (this.showNav === true) {
+        this.showNav = false
+        console.log('click')
+      }
+    },
     showMenu() {
       this.showNav = true
-      window.addEventListener('scroll', this.closeMenuScroll)
+      window.addEventListener('scroll', this.closeMenu) //так мы учитываем наличие скролла и запускаем механизм закрытия модального окна
     },
-    closeMenuScroll() {
+    closeMenu() {
       this.showNav = false
-      window.removeEventListener('scroll', this.closeMenuScroll)
+      console.log('scroll')
+      window.removeEventListener('scroll', this.closeMenu) //так мы перестаем отслеживать наличие скролла, чтобы не запускать лишних механизов и не перегружать приложение
     }
   }
 }

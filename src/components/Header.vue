@@ -20,28 +20,26 @@
           <Collapse />
         </div>
       </div>
-      <main ref="main" @click="closeMenuClick">
-        <div class="d-block w-65 w-lg-55">
-          <p class="text--whites text--10 text--md-14 lh--21 mb-10 mb-sm-22 ">
-            A place where
-          </p>
-          <h1
-            class="text--24 text--sm-36 text--md-50 text--xl-60 text--whites text--bold mb-24 lh--sm-50 lh--md-65 lh--xl-74"
-          >
-            A creative agency for redemptive brands
-          </h1>
-          <h2
-            class="text--whites text--10 text--sm-14 text--md-16 text--regular lh--sm-18 lh--md-26 mb-sm-25 mb-md-45"
-          >
-            Anteelo is a leading strategic design firm that builds powerful
-            digital solutions for startups and enterprises.
-          </h2>
-          <a
-            href="#"
-            class="link text--12 text--sm-16 link--yellow link--arrow mb-40 mb-sm-60 mb-md-107 lh--24"
-            >Get in touch</a
-          >
-        </div>
+      <main class="d-block w-65 w-lg-55">
+        <p class="text--whites text--10 text--md-14 lh--21 mb-10 mb-sm-22 ">
+          A place where
+        </p>
+        <h1
+          class="text--24 text--sm-36 text--md-50 text--xl-60 text--whites text--bold mb-24 lh--sm-50 lh--md-65 lh--xl-74"
+        >
+          A creative agency for redemptive brands
+        </h1>
+        <h2
+          class="text--whites text--10 text--sm-14 text--md-16 text--regular lh--sm-18 lh--md-26 mb-sm-25 mb-md-45"
+        >
+          Anteelo is a leading strategic design firm that builds powerful
+          digital solutions for startups and enterprises.
+        </h2>
+        <a
+          href="#"
+          class="link text--12 text--sm-16 link--yellow link--arrow mb-40 mb-sm-60 mb-md-107 lh--24"
+          >Get in touch</a
+        >
       </main>
       <nav class="header__brands d-flex align-items-center">
         <div class="w-100 d-flex align-items-center justify-content-between">
@@ -89,12 +87,6 @@
 <script>
 import Collapse from '@/components/Collapse'
 export default {
-  components: { Collapse: Collapse },
-  methods: {
-    closeMenuClick() {
-      this.showNav = false
-      this.$refs.main.removeEventListener('click', this.closeMenuClick)
-    }
-  }
+  components: { Collapse: Collapse }
 }
 </script>
