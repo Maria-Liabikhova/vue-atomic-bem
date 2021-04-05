@@ -1,5 +1,6 @@
 // footer
 .footer
+  height: calc( 100% - 61px )
   position: relative
   display: block
   background-image: url("../images/bg-footer.png")
@@ -9,7 +10,10 @@
     border-bottom: 1px solid $green-light
     border-top: 1px solid $green-light
     &--y
+      height: fit-content
       border-right: 1px solid $green-light
+      @media screen and ( max-width: 991px )
+        border: none
   &__logo
     height: 28px
   &__banner 
@@ -17,10 +21,26 @@
     z-index: 100
     transform: translateY(-50%)
     box-shadow: 10px 0 15px -10px rgba(0, 0, 0, 0.3)
-.bor
-  border: 1px dashed red
-.bor1
-  border: 1px dashed green
-.bor2
-  border: 1px dashed blue
+  &__text
+    color: $green-light
+    font-size: 16px
+    line-height: 40px
+    margin-bottom: 0
+    @media screen and ( max-width: 991px )
+      font-size: 14px
+      line-height: 34px
+  &__connect
+    font-size: 16px
+    line-height: 40px
+    font-weight: 700
+    margin-bottom: 0
+  &__icon
+    height: 33px
+    width: 33px
+    @media screen and ( max-width: 991px )
+      height: 28px
+      width: 28px
+    @media screen and ( max-width: 479px )
+      height: 20px
+      width: 20px
 // footer END

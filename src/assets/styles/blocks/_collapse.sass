@@ -1,0 +1,23 @@
+// collapse
+.collapse
+  &__button
+    background-color: $white
+    border-radius: 50%
+    height: 40px
+    width: 40px
+    transition: all 1s ease
+    border: none
+    display: flex
+    align-items: center
+    justify-content: center
+    @media screen and ( max-width: 768px )
+      transform: translateY(-25%)
+      box-sizing: content-box
+      height: 25px
+      width: 25px
+    &:active,&:focus
+      outline: none 
+    &--none
+      opacity: 0
+      transition: all .3s ease
+// collapse END

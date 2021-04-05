@@ -1,11 +1,14 @@
 <template>
   <header class="header h-100">
-    <div class="container">
+    <div class="container header__relative">
       <div class="d-flex flex-column justify-content-between">
         <div
           class="d-flex justify-content-between pt-23 mb-30 mb-sm-40 mb-lg-80 mb-xl-121"
         >
-          <a href="#" class="link d-flex align-items-start w-18">
+          <a
+            href="#"
+            class="link d-flex align-items-start w-30 w-sm-25 w-lg-18"
+          >
             <img
               :src="require('@/assets/images/logo.png')"
               alt="lable webovio"

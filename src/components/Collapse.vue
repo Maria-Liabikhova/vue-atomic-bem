@@ -2,8 +2,8 @@
   <div v-on-clickaway="closeOrSleep">
     <button
       type="button"
-      class="header__button"
-      :class="{ 'header__button--none': showNav }"
+      class="collapse__button mr-10 px-2 px-md-5 py-2 py-md-5"
+      :class="{ 'collapse__button--none': showNav }"
       @click="showMenu"
     >
       <img
@@ -17,22 +17,22 @@
     >
       <a
         href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 py-10 px-md-20 py-md-20"
+        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
         >link1</a
       >
       <a
         href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 py-10 px-md-20 py-md-20"
+        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
         >link2</a
       >
       <a
         href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 py-10 px-md-20 py-md-20"
+        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
         >link3</a
       >
       <a
         href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 py-10 px-md-20 py-md-20"
+        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
         >link4</a
       >
     </nav>

@@ -1,37 +1,41 @@
 <template>
-  <div class="main bg--white main__bg main__bg--booking">
-    <div class="container">
-      <div class="w-100 d-flex">
-        <div class="w-55 w-md-60"></div>
-        <div class="w-45 w-md-40">
-          <h2 class="text--green main__h2 text--20 text--sm-22 text--lg-36 text--bold mb-15 mb-md-25 pt-20 pt-lg-30 pt-xl-80 lh--46">
-            Is this the future of<br>Online Booking
-          </h2>
-          <p class="text--gray text--10 text--lg-14 mb-15 mb-lg-30">
-            You should be able to find several indispensable facts about motivation in the following paragraphs. 
-          </p>
-          <p class="text--gray text--10 text--lg-14 mb-0">
-            If there’s at least one fact you didn’t know before, imagine the difference it might make.
-          </p>
-        </div>
-      </div>
-      <div class="w-100 d-flex">
-        <div class="w-10 w-md-15"></div>
-        <div class="w-45 px-10 py-10 px-lg-30 py-lg-30 w-40 bg--whites text--10 text--xl-16 radius--4 main__banner">
-          <p class="mb-10 mb-lg-16">
-            <i>"Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</i>
-          </p>
-          <div class="main__align">
-            <div class="main__avatar mr-5 main__avatar--booking"></div>
-            <div>
-              <p class="mb-5 text--bold text--sm-10 text--xl-14">Eunice Oliver</p>
-              <p class="lh-21 text--sm-10 text--xl-14 mb-0">Founder & CEO, Zeem</p>
-            </div>
+  <div class="main bg--white pt-0 pt-md-120 pb-md-185">
+    <div class="w-80 w-md-50">
+      <img :src="require('@/assets/images/bitmap(3).png')" class="img" />
+      <div
+        class="w-50 w-md-40 w-md-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--bb"
+      >
+        <p class="mb-10 mb-lg-16 main__banner--text">
+          "Exhibit Systems is not a provider. They are not a supplier. They are
+          a partner with expertise in making trade shows effective."
+        </p>
+        <div class="main__align">
+          <div class="main__avatar mr-5 main__avatar--booking"></div>
+          <div>
+            <p class="mb-0 mb-lg-5  main__banner--name">Eunice Oliver</p>
+            <p class="main__banner--company">Founder & CEO, Zeem</p>
           </div>
         </div>
-        <div class="w-5"></div>
-        <div class="w-40 main__align">
-          <a href="#" class="link link__gray text--gray-l">See Case Study</a>
+      </div>
+    </div>
+    <div class="container main--noheight">
+      <div class="d-md-flex main__transform--bb">
+        <div class="w-20 w-md-58"></div>
+        <div class="w-80 w-md-42">
+          <h2 class="main__h2 mb-15 mb-md-25 pt-sm-20 pt-lg-40 pt-xl-90 ">
+            Is this the future of<br />Online Booking
+          </h2>
+          <p class="main__text mb-15 mb-lg-25">
+            You should be able to find several indispensable facts about
+            motivation in the following paragraphs.
+          </p>
+          <p class="main__text mb-20 mb-lg-40 mb-xl-90">
+            If there’s at least one fact you didn’t know before, imagine the
+            difference it might make.
+          </p>
+          <a href="#" class="link link__gray mb-0 mb-sm-10 mb-md-25 mb-lg-45"
+            >See Case Study</a
+          >
         </div>
       </div>
     </div>

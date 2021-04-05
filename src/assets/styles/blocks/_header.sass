@@ -67,21 +67,6 @@
     @media screen and ( max-width: 768px )
       height: 3px
       width: 3px
-  &__button
-    background-color: $white
-    border-radius: 50%
-    border: none
-    height: 35px
-    width: 35px
-    transition: all 1s ease
-    @media screen and ( max-width: 768px )
-      height: 25px
-      width: 25px
-    &:active,&:focus
-      outline: none 
-    &--none
-      opacity: 0
-      transition: all .3s ease
   &__nav
     position: absolute
     top: 0px
@@ -93,4 +78,6 @@
       transform: translate(0, 0)
       transition: all 1s ease
       background-color: rgba(10, 10, 10, 0.6)
+  &__relative
+    position: relative
 // header END
