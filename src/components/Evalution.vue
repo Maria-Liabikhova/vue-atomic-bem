@@ -1,9 +1,9 @@
 <template>
   <div
-    class="main pt-100 pt-lg-150 pb-50 pb-lg-150 mb-100 mb-lg-181 bg--white  main__border"
+    class="main pt-60 pt-sm-100 pt-lg-150 pb-50 pb-lg-150 mb-100 mb-lg-181 bg--white  main__border"
   >
     <div class="container">
-      <h2 class="text--green main__h2  mb-40 mb-lg-60 w-55">
+      <h2 class="text--green main__h2  mb-40 mb-lg-60 w-100 w-md-55">
         Deation & Evaluation - Best Way to Kick off Your Product Idea
       </h2>
       <div class="d-flex justify-content-between flex-wrap">

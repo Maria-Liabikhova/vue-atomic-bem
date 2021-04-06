@@ -21,6 +21,16 @@
     z-index: 100
     transform: translateY(-50%)
     box-shadow: 10px 0 15px -10px rgba(0, 0, 0, 0.3)
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      height: 100%
+      left: 0
+      top: 0
+      background-color: $white
+      width: 100%
+      transform: translateX(calc( -100% + 1px ))
   &__text
     color: $green-light
     font-size: 16px
@@ -43,4 +53,8 @@
     @media screen and ( max-width: 479px )
       height: 20px
       width: 20px
+.bor
+  border: 1px dashed yellow
+.bor1
+  border: 1px dashed violet
 // footer END

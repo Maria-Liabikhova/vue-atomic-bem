@@ -1,17 +1,17 @@
 <template>
-  <div class="main bg--whit">
+  <div class="main bg--whit main__section">
     <div class="container">
       <div class="d-md-flex main__strategy">
-        <div class="w-60 w-md-44 d-inline-block">
+        <div class="w-100 w-md-45 d-inline-block">
           <p
-            class="text--green pt-50 pt-md-90 pt-lg-120 text--10 text--md-14 lh--21 mb-md-20 mb-lg-30"
+            class="text--green pt-50 pt-lg-120 text--10 text--md-14 lh--21 mb-md-20 mb-lg-30"
           >
             What we do for you
           </p>
-          <h2 class="main__h2 mb-15 mb-md-35 lh--lg-46">
-            Strategy. Design<br />Content. Technology<br />Development
+          <h2 class="main__h2 mb-15 w-100 w-md-90 mb-md-35 lh--lg-46">
+            Strategy. Design Content. Technology Development
           </h2>
-          <p class="main__text mb-30 mb-md-42">
+          <p class="main__text mb-15 mb-md-42">
             There’s no secret sauce, no wizard behind the curtain. What makes
             Aerolab tick is an interdisciplinary team with a framework that
             fosters candid collaboration.
@@ -22,13 +22,12 @@
             >More know About us</a
           >
         </div>
-        <div class="d-flex w-100 w-md-58">
-          <div class="w-20 w-sm-40 w-md-25 "></div>
+        <div class="d-flex w-100 w-md-55 ml-md-160">
           <div
-            class="w-80 w-sm-60 w-md-75 h-md-auto pl-15 pr-4 pl-md-40 pr-md-8 bg--whites radius--4 main__shadow"
+            class=" h-md-auto pl-15 pr-4 pl-md-40 pr-md-8 bg--whites radius--4 main__shadow"
           >
             <p
-              class="main__strategy--text text--green text--12 text--md-18 text--lg-24 lh-15 lh--md-30 lh--lg-40 mb-30 mb-md-50 pt-50 pt-md-90 pt-lg-120 pr-30"
+              class="main__strategy--text text--green text--12 text--md-18 text--lg-24 lh-15 lh--md-30 lh--lg-40 mb-30 mb-md-50 pt-30 pt-md-50 pt-lg-120 pr-30 pr-md-60"
             >
               With More than 10 Years of Knowledge and Expertise we Design and
               Code Websites and Apps, We Build Brands and Help Them Succeed

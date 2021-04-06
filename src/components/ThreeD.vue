@@ -1,11 +1,10 @@
 <template>
-  <div class="main bg--white pt-0 pt-md-165 pb-md-100  pb-xl-30">
-    <div class="d-flex">
-      <div class="w-30 w-md-50"></div>
-      <div class="w-90 w-md-50">
+  <div class="main bg--white pt-0 pt-md-165 pb-md-100  pb-xl-30 main__section">
+    <div class="d-flex justify-content-end">
+      <div class="w-100 w-md-50">
         <img :src="require('@/assets/images/bitmap(2).png')" class="img" />
         <div
-          class="w-60 w-md-40 w-xl-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--threed"
+          class="w-100 w-md-40 w-xl-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--threed"
         >
           <p class="mb-10 mb-lg-16 main__banner--text">
             "I know they are going to be honest with me. I am not going to get a
@@ -24,9 +23,9 @@
     </div>
     <div class="container main--noheight">
       <div class="d-md-flex main__transform--threed">
-        <div class="w-80 w-md-42">
+        <div class="w-100 w-md-42">
           <h2 class="main__h2 mb-15 mb-md-25 pt-sm-20 pt-lg-40 pt-xl-90 ">
-            Is this the future of<br />3D model?
+            Is this the future of 3D model?
           </h2>
           <p class="main__text mb-15 mb-lg-25">
             While it was just a TV show, that little speech at the beginning of

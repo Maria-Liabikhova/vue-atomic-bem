@@ -57,12 +57,12 @@ export default {
     },
     showMenu() {
       this.showNav = true
-      window.addEventListener('scroll', this.closeMenu) //так мы учитываем наличие скролла и запускаем механизм закрытия модального окна
+      window.addEventListener('scroll', this.closeMenu)
     },
     closeMenu() {
       this.showNav = false
       console.log('scroll')
-      window.removeEventListener('scroll', this.closeMenu) //так мы перестаем отслеживать наличие скролла, чтобы не запускать лишних механизов и не перегружать приложение
+      window.removeEventListener('scroll', this.closeMenu)
     }
   }
 }

@@ -1,9 +1,9 @@
 <template>
-  <div class="main bg--white">
-    <div class="w-80 w-md-50">
+  <div class="main bg--white main__section">
+    <div class="w-100 w-md-50">
       <img :src="require('@/assets/images/bitmap(1).png')" class="img" />
       <div
-        class="w-50 w-md-40 w-md-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--bb"
+        class="w-100 w-md-40 w-md-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--bb"
       >
         <p class="mb-10 mb-lg-16 main__banner--text">
           "In my history of working with trade show vendors, I can honestly say
@@ -22,9 +22,9 @@
     <div class="container main--noheight">
       <div class="d-md-flex main__transform--bb">
         <div class="w-20 w-md-58"></div>
-        <div class="w-80 w-md-42">
+        <div class="w-100 w-md-42">
           <h2 class="main__h2 mb-15 mb-md-25 pt-sm-20 pt-lg-40 pt-xl-90 ">
-            The wall new<br />Balenciaga.com
+            The wall new Balenciaga.com
           </h2>
           <p class="main__text mb-15 mb-lg-25">
             This article is floated online with an aim to help you find the best
