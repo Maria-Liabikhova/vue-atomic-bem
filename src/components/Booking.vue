@@ -1,19 +1,19 @@
 <template>
-  <div class="main bg--white pt-0 pt-md-120 pb-md-185 main__section">
+  <div class="main bg--white pt-0 pt-md-120 pb-md-185">
     <div class="w-100 w-md-50">
-      <img :src="require('@/assets/images/bitmap(3).png')" class="img" />
-      <div
-        class="w-100 w-md-40 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--bb"
-      >
-        <p class="mb-10 mb-lg-16 main__banner--text">
-          "Exhibit Systems is not a provider. They are not a supplier. They are
-          a partner with expertise in making trade shows effective."
-        </p>
-        <div class="main__align">
-          <div class="main__avatar mr-5 main__avatar--booking"></div>
-          <div>
-            <p class="mb-0 mb-lg-5  main__banner--name">Eunice Oliver</p>
-            <p class="main__banner--company">Founder & CEO, Zeem</p>
+      <div class="img__wpapper">
+        <img :src="require('@/assets/images/bitmap(3).png')" class="img" />
+        <div class="img__banner img__banner--bb">
+          <p class="mb-10 mb-lg-16 main__banner--text">
+            "Exhibit Systems is not a provider. They are not a supplier. They
+            are a partner with expertise in making trade shows effective."
+          </p>
+          <div class="main__align">
+            <div class="main__avatar mr-5 main__avatar--booking"></div>
+            <div>
+              <p class="mb-0 mb-lg-5  main__banner--name">Eunice Oliver</p>
+              <p class="main__banner--company">Founder & CEO, Zeem</p>
+            </div>
           </div>
         </div>
       </div>

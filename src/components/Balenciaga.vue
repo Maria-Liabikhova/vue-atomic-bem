@@ -1,20 +1,20 @@
 <template>
-  <div class="main bg--white main__section">
+  <div class="main bg--white">
     <div class="w-100 w-md-50">
-      <img :src="require('@/assets/images/bitmap(1).png')" class="img" />
-      <div
-        class="w-100 w-md-40 w-md-31 px-15 py-15 px-lg-30 py-lg-30 bg--whites radius--4 img__bannerposit img__bannerposit--bb"
-      >
-        <p class="mb-10 mb-lg-16 main__banner--text">
-          "In my history of working with trade show vendors, I can honestly say
-          that there is not one company that I've ever worked with that has
-          better service than Exhibit Systems."
-        </p>
-        <div class="main__align">
-          <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
-          <div>
-            <p class="mb-0 mb-lg-5  main__banner--name">Angel Armstrong</p>
-            <p class="main__banner--company">Founder & CEO, Google</p>
+      <div class="img__wpapper">
+        <img :src="require('@/assets/images/bitmap(1).png')" class="img" />
+        <div class="img__banner img__banner--bb">
+          <p class="mb-10 mb-lg-16 main__banner--text">
+            "In my history of working with trade show vendors, I can honestly
+            say that there is not one company that I've ever worked with that
+            has better service than Exhibit Systems."
+          </p>
+          <div class="main__align">
+            <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
+            <div>
+              <p class="mb-0 mb-lg-5  main__banner--name">Angel Armstrong</p>
+              <p class="main__banner--company">Founder & CEO, Google</p>
+            </div>
           </div>
         </div>
       </div>

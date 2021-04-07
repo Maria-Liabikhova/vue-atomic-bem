@@ -1,5 +1,5 @@
 <template>
-  <div class="main bg--whit main__section">
+  <div class="main bg--whit">
     <div class="container">
       <div class="d-md-flex main__strategy">
         <div class="w-100 w-md-45 d-inline-block">

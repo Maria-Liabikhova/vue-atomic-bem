@@ -1,5 +1,5 @@
 <template>
-  <div class="main bg--white main__section">
+  <div class="main bg--white">
     <div
       class="container mb-40 mb-md-80 mb-xl-104 pt-40 pt-sm-60 pt-md-90 pt-lg-115 pt-xl-150 main__topbord"
     >

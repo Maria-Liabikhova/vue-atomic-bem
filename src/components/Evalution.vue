@@ -1,6 +1,6 @@
 <template>
   <div
-    class="main pt-60 pt-sm-100 pt-lg-150 pb-50 pb-lg-150 mb-100 mb-lg-181 bg--white  main__border"
+    class="main pt-60 pt-md-150 pb-50 pb-lg-150 mb-100 mb-lg-181 bg--white  main__border"
   >
     <div class="container">
       <h2 class="text--green main__h2  mb-40 mb-lg-60 w-100 w-md-55">
