@@ -1,7 +1,7 @@
 <template>
   <footer class="footer bg--green-dark">
     <div class="container">
-      <div class="w-100 pl-1 bg--whites py-20 py-lg-70 footer__banner">
+      <div class="w-100 bg--whites py-20 py-lg-70 footer__banner">
         <h2
           class="w-100 w-md-75 text--green text--bold text--35 text--sm-40 text--md-50 text--lg-60 lh--55 lh--md-60 lh--lg-74 mb-20 mb-sm-40 mb-lg-50"
         >
@@ -42,11 +42,13 @@
           >
             Services
           </h3>
-          <a href="#" class="link footer__text d-block">Brand Strategy</a>
-          <a href="#" class="link footer__text d-block">Product Design</a>
-          <a href="#" class="link footer__text d-block">Content Strategy</a>
-          <a href="#" class="link footer__text d-block">Brand Strategy</a>
-          <a href="#" class="link footer__text d-block">Development</a>
+          <a
+            :href="servisesLink.url"
+            v-for="servisesLink in servisesLinks"
+            :key="servisesLink.id"
+            class="link footer__text d-block"
+            >{{ servisesLink.name }}</a
+          >
         </div>
         <div class="w-100 w-sm-60 pb-50 pb-lg-0 pr-15 w-lg-22">
           <h3
@@ -54,10 +56,13 @@
           >
             Help And Advice
           </h3>
-          <a href="#" class="link footer__text d-block">How it works</a>
-          <a href="#" class="link footer__text d-block">Contact Support</a>
-          <a href="#" class="link footer__text d-block">Privacy Policy</a>
-          <a href="#" class="link footer__text d-block ">FAQ</a>
+          <a
+            :href="adviceLink.url"
+            v-for="adviceLink in adviceLinks"
+            :key="adviceLink.id"
+            class="link footer__text d-block"
+            >{{ adviceLink.name }}</a
+          >
         </div>
         <div
           class="mb-30 mb-sm-0 w-100 w-sm-40 w-lg-19 pr-15 footer__border--y"
@@ -67,10 +72,13 @@
           >
             Company
           </h3>
-          <a href="#" class="link footer__text d-block">About</a>
-          <a href="#" class="link footer__text d-block">Blog</a>
-          <a href="#" class="link footer__text d-block">Contact</a>
-          <a href="#" class="link footer__text d-block ">Jobs</a>
+          <a
+            :href="companyLink.url"
+            v-for="companyLink in companyLinks"
+            :key="companyLink.id"
+            class="link footer__text d-block"
+            >{{ companyLink.name }}</a
+          >
         </div>
         <div class="w-100 w-sm-60 w-lg-39 ">
           <div class="pl-lg-80 pl-xl-110 d-inline-block">
@@ -90,25 +98,12 @@
               >info.webovio@gmail.com</a
             >
             <div class="w-40 w-sm-55 d-flex justify-content-between pt-25">
-              <a href="#" class="link link__soc"
-                ><img
-                  :src="require('@/assets/images/fb.svg')"
-                  class="footer__icon"
-              /></a>
-              <a href="#" class="link link__soc"
-                ><img
-                  :src="require('@/assets/images/twitter.svg')"
-                  class="footer__icon"
-              /></a>
-              <a href="#" class="link link__soc"
-                ><img
-                  :src="require('@/assets/images/google.svg')"
-                  class="footer__icon"
-              /></a>
-              <a href="#" class="link link__soc mr-0"
-                ><img
-                  :src="require('@/assets/images/im.svg')"
-                  class="footer__icon"
+              <a
+                :href="icon.url"
+                class="link link__soc"
+                v-for="icon in icons"
+                :key="icon.id"
+                ><img :src="icon.imgSrc" class="footer__icon"
               /></a>
             </div>
           </div>
@@ -137,3 +132,88 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      servisesLinks: [
+        {
+          name: 'Brand Strategy',
+          url: '#1'
+        },
+        {
+          name: 'Product Design',
+          url: '#2'
+        },
+        {
+          name: 'Content Strateg',
+          url: '#3'
+        },
+        {
+          name: 'Brand Strategy',
+          url: '#3'
+        },
+        {
+          name: 'Development',
+          url: '#4'
+        }
+      ],
+      adviceLinks: [
+        {
+          name: 'How it works',
+          url: '#adviceLink1'
+        },
+        {
+          name: 'Contact Support',
+          url: '#adviceLink2'
+        },
+        {
+          name: 'Privacy Policy',
+          url: '#adviceLink3'
+        },
+        {
+          name: 'FAQ',
+          url: '#adviceLink4'
+        }
+      ],
+      companyLinks: [
+        {
+          name: 'About',
+          url: '#contactLink1'
+        },
+        {
+          name: 'Blog',
+          url: '#contactLink2'
+        },
+        {
+          name: 'Contact',
+          url: '#contactLink3'
+        },
+        {
+          name: 'Jobs',
+          url: '#contactLink4'
+        }
+      ],
+      icons: [
+        {
+          url: '#1',
+          imgSrc: require('@/assets/images/fb.svg')
+        },
+        {
+          url: '#2',
+          imgSrc: require('@/assets/images/twitter.svg')
+        },
+        {
+          url: '#3',
+          imgSrc: require('@/assets/images/google.svg')
+        },
+        {
+          url: '#4',
+          imgSrc: require('@/assets/images/im.svg')
+        }
+      ]
+    }
+  }
+}
+</script>

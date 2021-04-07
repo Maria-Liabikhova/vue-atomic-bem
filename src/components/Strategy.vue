@@ -32,7 +32,7 @@
               With More than 10 Years of Knowledge and Expertise we Design and
               Code Websites and Apps, We Build Brands and Help Them Succeed
             </p>
-            <div class="d-flex mb-30 mb-lg-60 align-items-center">
+            <div class="main__align mb-30 mb-lg-60">
               <div
                 class="main__avatar main__avatar--strategy mr-15 mr-lg-30 "
               ></div>

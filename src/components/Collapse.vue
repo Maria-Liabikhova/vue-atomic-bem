@@ -12,29 +12,17 @@
       />
     </button>
     <nav
-      class="header__nav header__top w-25 w-sm-20 px-30 py-50 h-100"
+      class="header__nav header__top w-100 w-md-20 px-30 py-50 h-100"
       :class="{ 'header__nav--show': showNav }"
     >
-      <a
-        href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
-        >link1</a
-      >
-      <a
-        href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
-        >link2</a
-      >
-      <a
-        href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
-        >link3</a
-      >
-      <a
-        href="#"
-        class="link d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
-        >link4</a
-      >
+      <ul v-for="link in links" :key="link.id" @click="closeOrSleep">
+        <a
+          class="link text--right d-block text--10 text--sm-14 text--uppercase space--1 px-5 px-md-20 py-10 py-md-20"
+          :href="link.url"
+        >
+          {{ link.name }}
+        </a>
+      </ul>
     </nav>
   </div>
 </template>
@@ -45,14 +33,31 @@ export default {
   mixins: [clickaway],
   data() {
     return {
-      showNav: false
+      showNav: false,
+      links: [
+        {
+          name: 'Link1',
+          url: '#1'
+        },
+        {
+          name: 'Link2',
+          url: '#2'
+        },
+        {
+          name: 'Link3',
+          url: '#3'
+        },
+        {
+          name: 'Link4',
+          url: '#4'
+        }
+      ]
     }
   },
   methods: {
     closeOrSleep() {
-      if (this.showNav === true) {
+      if ((this.showNav = true)) {
         this.showNav = false
-        console.log('click')
       }
     },
     showMenu() {
@@ -61,7 +66,6 @@ export default {
     },
     closeMenu() {
       this.showNav = false
-      console.log('scroll')
       window.removeEventListener('scroll', this.closeMenu)
     }
   }

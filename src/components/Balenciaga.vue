@@ -20,8 +20,7 @@
       </div>
     </div>
     <div class="container main--noheight">
-      <div class="d-md-flex main__transform--bb">
-        <div class="w-20 w-md-58"></div>
+      <div class="d-flex justify-content-end main__transform--bb ">
         <div class="w-100 w-md-42">
           <h2 class="main__h2 mb-15 mb-md-25 pt-sm-20 pt-lg-40 pt-xl-90 ">
             The wall new Balenciaga.com
