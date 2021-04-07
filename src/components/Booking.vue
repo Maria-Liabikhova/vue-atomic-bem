@@ -9,7 +9,7 @@
             are a partner with expertise in making trade shows effective."
           </p>
           <div class="main__align">
-            <div class="main__avatar mr-5 main__avatar--booking"></div>
+            <div class="main__avatar main__avatar--booking"></div>
             <div>
               <p class="mb-0 mb-lg-5  main__banner--name">Eunice Oliver</p>
               <p class="main__banner--company">Founder & CEO, Zeem</p>

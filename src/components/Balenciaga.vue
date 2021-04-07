@@ -10,7 +10,7 @@
             has better service than Exhibit Systems."
           </p>
           <div class="main__align">
-            <div class="main__avatar mr-5 main__avatar--balenciaga"></div>
+            <div class="main__avatar main__avatar--balenciaga"></div>
             <div>
               <p class="mb-0 mb-lg-5  main__banner--name">Angel Armstrong</p>
               <p class="main__banner--company">Founder & CEO, Google</p>

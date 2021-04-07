@@ -12,7 +12,7 @@
               number one advantage of working with Exhibit Systems."
             </p>
             <div class="main__align">
-              <div class="main__avatar mr-5 main__avatar--threed"></div>
+              <div class="main__avatar main__avatar--threed"></div>
               <div>
                 <p class="mb-0 mb-lg-5  main__banner--name">Lina Hart</p>
                 <p class="main__banner--company">Founder & CEO, Jico</p>
